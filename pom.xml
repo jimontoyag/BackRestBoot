@@ -47,6 +47,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            
+            <!-- START plugin -->
+			      <plugin>
+			        <groupId>com.google.cloud.tools</groupId>
+			        <artifactId>appengine-maven-plugin</artifactId>
+			      </plugin>
+			<!-- END plugin -->
         </plugins>
     </build>
 
