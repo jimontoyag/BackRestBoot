@@ -32,5 +32,10 @@ public class CuboController {
 		}
 		return mensaje;
 	}
+	
+	@RequestMapping("/reiniciar")
+	private void reiniciar(){
+		service.reiniciar();
+	}
 
 }

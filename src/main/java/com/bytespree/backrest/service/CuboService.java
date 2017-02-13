@@ -53,6 +53,12 @@ public class CuboService {
 		return respuesta;
 	}
 	
+	public void reiniciar(){
+		this.instanciaCubo=null;
+		this.operaciones=null;
+		this.M=null;
+	}
+	
 	
 	
 	
